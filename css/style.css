@@ -1,0 +1,293 @@
+/* 全局样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  font-family: Arial, "Microsoft YaHei", sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.clear {
+  clear: both;
+}
+
+/* 头部样式 */
+.header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+  width: 180px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav {
+  float: left;
+  margin-left: 50px;
+}
+
+.nav ul li {
+  float: left;
+  margin: 0 15px;
+}
+
+.nav ul li a {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 15px 0;
+  display: block;
+}
+
+.nav ul li a:hover {
+  color: #f60;
+}
+
+.user-actions {
+  float: right;
+  padding: 15px 0;
+}
+
+.user-actions a {
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+.user-actions .cart {
+  background-color: #f60;
+  color: white;
+  padding: 8px 15px;
+}
+
+/* 搜索栏样式 */
+.search-bar {
+  background-color: #f60;
+  padding: 20px 0;
+}
+
+.search-box {
+  width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.search-box input {
+  float: left;
+  width: 700px;
+  padding: 10px 15px;
+  border: none;
+  font-size: 16px;
+}
+
+.search-box button {
+  float: left;
+  width: 100px;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* 轮播图样式 */
+.banner {
+  margin: 20px 0;
+}
+
+.banner-slide {
+  display: none;
+}
+
+.banner-slide.active {
+  display: block;
+}
+
+.banner-slide img {
+  width: 100%;
+  display: block;
+}
+
+/* 区块标题样式 */
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #333;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.section-title:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: #f60;
+}
+
+/* 商品分类栏样式 */
+.categories-section {
+  margin: 40px 0 30px;
+  padding: 30px 0;
+  background-color: #fff;
+}
+
+.categories-row {
+  overflow: hidden;
+}
+
+.category-item {
+  float: left;
+  width: 22%;/*23%*/
+  margin-right: 2.66%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.category-item:last-child {
+  margin-right: 0;
+}
+
+.category-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 1px solid #eee;
+}
+
+.category-item h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+/* 热门商品栏样式 */
+.products-section {
+  margin: 0 0 40px;
+  padding: 30px 0;
+  background-color: #fff;
+}
+
+.products-row {
+  overflow: hidden;
+}
+
+.product-item {
+  float: left;
+  width: 22%;/*23%*/
+  margin-right: 2.66%;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+}
+
+.product-item:last-child {
+  margin-right: 0;
+}
+
+.product-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.product-item h3 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.product-item .price {
+  color: #f60;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* 页脚样式 */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0 20px;
+}
+
+.footer-links {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.link-group {
+  float: left;
+  width: 23%;
+  margin-right: 2.66%;
+  padding: 0 10px;
+}
+
+.link-group:last-child {
+  margin-right: 0;
+}
+
+.link-group h4 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.link-group ul li {
+  margin-bottom: 10px;
+}
+
+.link-group ul li a {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.link-group ul li a:hover {
+  color: #f60;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  font-size: 14px;
+  color: #999;
+}

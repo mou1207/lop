@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小兔鲜儿 - 新鲜每一天</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .student-info {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background-color: #fff;
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            font-size: 12px;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+    <!-- 学号姓名信息 -->
+    <div class="student-info">学号：23215220329 姓名：牟其鑫</div>
+    
+    <!-- 顶部导航栏 -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="小兔鲜儿">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">新鲜水果</a></li>
+                    <li><a href="#">海鲜水产</a></li>
+                    <li><a href="#">肉禽蛋类</a></li>
+                    <li><a href="#">速食冻品</a></li>
+                    <li><a href="#">乳品烘焙</a></li>
+                </ul>
+            </nav>
+            <div class="user-actions">
+                <a href="#">登录</a>
+                <a href="#">注册</a>
+                <a href="#" class="cart">购物车</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </header>
+
+    <!-- 搜索栏 -->
+    <section class="search-bar">
+        <div class="container">
+            <div class="search-box">
+                <input type="text" placeholder="搜索商品...">
+                <button>搜索</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 轮播图 -->
+    <section class="banner">
+        <div class="container">
+            <div class="banner-slide active">
+                <img src="images/banner1.jpg" alt="轮播图1">
+            </div>
+            <div class="banner-slide">
+                <img src="images/banner2.jpg" alt="轮播图2">
+            </div>
+        </div>
+    </section>
+
+    <!-- 商品分类栏 -->
+    <section class="categories-section">
+        <div class="container">
+            <h2 class="section-title">商品分类</h2>
+            <div class="categories-row">
+                <div class="category-item">
+                    <img src="images/products/fruit.jpg" alt="新鲜水果">
+                    <h3>新鲜水果</h3>
+                </div>
+                <div class="category-item">
+                    <img src="images/products/seafood.jpg" alt="海鲜水产">
+                    <h3>海鲜水产</h3>
+                </div>
+                <div class="category-item">
+                    <img src="images/products/meat.jpg" alt="肉禽蛋类">
+                    <h3>肉禽蛋类</h3>
+                </div>
+                <div class="category-item">
+                    <img src="images/products/frozen.jpg" alt="速食冻品">
+                    <h3>速食冻品</h3>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 热门商品栏 -->
+    <section class="products-section">
+        <div class="container">
+            <h2 class="section-title">热门商品</h2>
+            <div class="products-row">
+                <div class="product-item">
+                    <img src="images/products/product1.jpg" alt="红富士苹果">
+                    <h3>红富士苹果</h3>
+                    <p class="price">¥12.8/500g</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/products/product2.jpg" alt="澳洲牛排">
+                    <h3>澳洲牛排</h3>
+                    <p class="price">¥68.0/200g</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/products/product3.jpg" alt="挪威三文鱼">
+                    <h3>挪威三文鱼</h3>
+                    <p class="price">¥98.0/500g</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/products/product4.jpg" alt="新鲜草莓">
+                    <h3>新鲜草莓</h3>
+                    <p class="price">¥25.0/500g</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>购物指南</h4>
+                    <ul>
+                        <li><a href="#">购物流程</a></li>
+                        <li><a href="#">会员介绍</a></li>
+                        <li><a href="#">常见问题</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>配送方式</h4>
+                    <ul>
+                        <li><a href="#">上门自提</a></li>
+                        <li><a href="#">配送服务</a></li>
+                        <li><a href="#">配送费说明</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>支付方式</h4>
+                    <ul>
+                        <li><a href="#">货到付款</a></li>
+                        <li><a href="#">在线支付</a></li>
+                        <li><a href="#">优惠券使用</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>售后服务</h4>
+                    <ul>
+                        <li><a href="#">退换货政策</a></li>
+                        <li><a href="#">退款说明</a></li>
+                        <li><a href="#">联系客服</a></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 小兔鲜儿(329) 版权所有</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
